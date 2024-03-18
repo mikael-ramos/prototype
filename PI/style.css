@@ -1,0 +1,30 @@
+
+
+header{
+    padding-bottom: 40px;
+    background-color: green;
+    color: white;
+    
+    
+}
+
+table {
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px;
+    border-spacing: 10px; /* Define a distância entre as células */
+}
+
+td {
+    padding: 10px 50px; /* Define o espaçamento interno dentro das células */
+    border: 1px solid black; /* Adiciona borda para visualização */
+}
+
+th{
+    padding: 10px 25px;
+    border: 1px solid black;
+}
+
+.operator{
+    margin: auto;
+}
