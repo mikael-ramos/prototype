@@ -7,7 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='reset.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='main.js'></script>
+
 </head>
 <body>
     <header>
@@ -15,31 +15,31 @@
     </header>
     <main>
         <div>
-            <table>
+            <table >
                 <colgroup>
                     <col span="4">
                 </colgroup>
-                <tr class="table_header">
+                <thead class="table_header">
                     <th>Codigo do produto</th>
                     <th>Nome do produto</th>
                     <th>Preço</th>
                     <th>Estado</th>
-                </tr>
-                <tr>
+                </thead>
+                <tbody class="tableIten">
                     <td>0000</td>
                     <td>Caderno</td>
                     <td>R$30</td>
                     <td>Fora de estoque</td>
-                </tr>
+                </tbody>
                 
             </table>
         </div>
-
+        
         <div class="operator">
-            <input type="number">
-            <input type="text">
-            <input type="text">
-            <button>Adicionar</button>
+            <input id="inputCodProduto" type="number">
+            <input id="inputNameProduto" type="text">
+            <input id="inputPriceProduto" type="number">
+            <button class="button-add">Adicionar</button>
             <button>Remover</button>
         </div>
     </main>
@@ -47,6 +47,6 @@
     <footer>
 
     </footer>
-    
+    <script src='main.js'></script>    
 </body>
 </html>
